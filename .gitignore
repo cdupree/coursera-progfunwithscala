@@ -1,0 +1,15 @@
+# Temporary files created by editors
+*~
+*.swp
+
+# eclipse stuff
+workspace*
+scala-SDK-3.0.3-2.10-macosx.cocoa.x86_64.zip
+eclipse
+
+# zips of programming assignments
+*.zip
+
+# Videos from the Class
+*Videos
+
