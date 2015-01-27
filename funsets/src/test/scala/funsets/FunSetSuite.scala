@@ -172,5 +172,15 @@ class FunSetSuite extends FunSuite {
       assert(!contains(m,3))
     }
   }
+   
+    test("sets are just boolenas"){
+	   def evens: Set = x => x % 2 == 0
+	   //assert(true)
+	   assert(contains(evens,42))
+	   assert(!contains(evens,41))
+	   assert(forall(evens, (x: Int) => x%2 == 0))
+   }
+   
+  
   
 }
